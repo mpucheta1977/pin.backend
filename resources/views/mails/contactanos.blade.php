@@ -11,7 +11,7 @@
     <h1>Correo Electronico</h1>
     <p>Este es el envio de correo por laravel</p>
     -->
-    <h1>Se han registrado los siguientes datos en nuestros registros</h1>
+    <h1>Se han registrado los siguientes datos en nuestro sistema</h1>
     <p>Nombre y Apellido del Interesado: {{ $details['name'] }}</p>
     <p>Correo Electrónico: {{ $details['email'] }}</p>
     <p>Celular: {{ $details['phone'] }}</p>
