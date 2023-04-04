@@ -63,7 +63,7 @@ class ContactoController extends Controller
         Mail::to('mpucheta1977@gmail.com')->send(new \App\Mail\Contactanos($details));
         
         return response()->json([
-            'mensaje' => 'Se cargaron correctamente los datos del Contacto y se envio el mail',
+            'mensaje' => 'Se registraron correctamente los datos y se envio el mail de confirmacion con dichos datos',
             'data' => $persona,
         ]);
     }
